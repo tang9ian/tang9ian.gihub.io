@@ -23,7 +23,7 @@ darkModeMediaQuery.addListener((event) => {
     setTheme(event.matches ? "dark" : "light");
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     let node = document.querySelector('.preload-transitions');
     node.classList.remove('preload-transitions');
 });
@@ -40,7 +40,7 @@ function setTheme(theme) {
             if (document.querySelector(selector)) {
                 return resolve(document.querySelector(selector));
             }
-    
+
             const observer = new MutationObserver(mutations => {
                 if (document.querySelector(selector)) {
                     resolve(document.querySelector(selector));
@@ -63,9 +63,8 @@ function setTheme(theme) {
         waitForElm('.utterances-frame').then((iframe) => {
             iframe.contentWindow.postMessage(message, 'https://utteranc.es');
         })
-        
-    }
-    else {
+
+    } else {
         const message = {
             type: 'set-theme',
             theme: 'github-light'
@@ -73,20 +72,20 @@ function setTheme(theme) {
         waitForElm('.utterances-frame').then((iframe) => {
             iframe.contentWindow.postMessage(message, 'https://utteranc.es');
         })
-        
+
     }
 
     function sendMessage(message) {
         const iframe = document.querySelector('iframe.giscus-frame');
         if (!iframe) return;
         iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
+    }
+    sendMessage({
         setConfig: {
-          theme: theme,
+            theme: theme,
         },
-      });
-    
+    });
+
     // Create and send event
     const event = new Event('themeChanged');
     document.dispatchEvent(event);

@@ -529,7 +529,8 @@ template {
     transition-duration: 0s; } }
 
 @keyframes fa-beat {
-  0%, 90% {
+  0%,
+  90% {
     transform: scale(1); }
   45% {
     transform: scale(var(--fa-beat-scale, 1.25)); } }
@@ -555,7 +556,8 @@ template {
     opacity: var(--fa-fade-opacity, 0.4); } }
 
 @keyframes fa-beat-fade {
-  0%, 100% {
+  0%,
+  100% {
     opacity: var(--fa-beat-fade-opacity, 0.4);
     transform: scale(1); }
   50% {
@@ -571,9 +573,11 @@ template {
     transform: rotate(-15deg); }
   4% {
     transform: rotate(15deg); }
-  8%, 24% {
+  8%,
+  24% {
     transform: rotate(-18deg); }
-  12%, 28% {
+  12%,
+  28% {
     transform: rotate(18deg); }
   16% {
     transform: rotate(-22deg); }
@@ -583,7 +587,8 @@ template {
     transform: rotate(-12deg); }
   36% {
     transform: rotate(12deg); }
-  40%, 100% {
+  40%,
+  100% {
     transform: rotate(0deg); } }
 
 @keyframes fa-spin {
@@ -6535,7 +6540,8 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
  */
-:root, :host {
+:root,
+:host {
   --fa-style-family-classic: 'Font Awesome 6 Free';
   --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free'; }
 
@@ -6555,7 +6561,8 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
  */
-:root, :host {
+:root,
+:host {
   --fa-style-family-classic: 'Font Awesome 6 Free';
   --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free'; }
 
@@ -6576,7 +6583,8 @@ readers do not read off random characters that represent icons */
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
  */
-:root, :host {
+:root,
+:host {
   --fa-style-family-brands: 'Font Awesome 6 Brands';
   --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands'; }
 
