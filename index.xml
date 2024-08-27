@@ -6,6 +6,21 @@
     <description>Recent content on Charles Tang&#39;s Personal Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tang9ian.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://tang9ian.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://tang9ian.github.io/about/</guid>
+      <description>I am a full-stack developer with experience in both front-end and back-end technologies. My experience spans a wide range of programming languages and frameworks, including Node.js, React.js, Vue.js, and Svelte for front-end development, as well as Golang, Java, and ColdFusion for backend development. In addition to my technical prowess, I have a keen interest in hiking and watching movies, which balances my professional life with outdoor adventure and cinematic exploration. I am currently focused on exploring new job opportunities, particularly in environments that value innovation, autonomy, and high-performing agile teams.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://tang9ian.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tang9ian.github.io/contact/</guid>
+      <description>Send me a message at my email address&#xA;or&#xA;Submit a message with this form.</description>
+    </item>
   </channel>
 </rss>

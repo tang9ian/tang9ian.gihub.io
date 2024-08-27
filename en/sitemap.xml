@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tang9ian.github.io/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://tang9ian.github.io/zh-cn/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang9ian.github.io/about/"
+                />
+  </url><url>
+    <loc>https://tang9ian.github.io/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://tang9ian.github.io/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tang9ian.github.io/"
+                />
+  </url><url>
     <loc>https://tang9ian.github.io/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,17 +52,7 @@
                 href="https://tang9ian.github.io/categories/"
                 />
   </url><url>
-    <loc>https://tang9ian.github.io/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://tang9ian.github.io/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tang9ian.github.io/"
-                />
+    <loc>https://tang9ian.github.io/contact/</loc>
   </url><url>
     <loc>https://tang9ian.github.io/series/</loc>
     <xhtml:link
